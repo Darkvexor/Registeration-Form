@@ -86,3 +86,52 @@ button:disabled {
   margin-top: 10px;
 }
 
+/* Tablet screens */
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  button {
+    font-size: 0.95em;
+    padding: 10px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 1.3em;
+  }
+
+  input {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .review {
+    font-size: 0.85em;
+  }
+}
